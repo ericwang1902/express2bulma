@@ -120,7 +120,7 @@ export default {
       this.index = (this.index === index) ? '' : index
     },
     logout () {
-      this.$parent.showModal('logout', '注销', '您确定要注销吗？', 300)
+      this.$parent.showModal('logout', '登出', '您确定要登出系统吗？', 300)
     }
   }
 }

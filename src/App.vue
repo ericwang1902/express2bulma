@@ -21,7 +21,7 @@
 <script>
 // vuex全局数据
 import store from './store'
-import Xheader from './components/header'//匿名导出，重命名XHeader
+import Xheader from './components/header'
 import { Toast, Modal } from './components/modal'
 import { NavMenu, Login } from './components/page'
 export default {
